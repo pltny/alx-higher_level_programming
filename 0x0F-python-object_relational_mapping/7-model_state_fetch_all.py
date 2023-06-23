@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Lists  State objects
-_fetch_all.p  <mysql username> /
+"""<mysql username> /
                                     <mysql password> /
                                     <database name>
 """
