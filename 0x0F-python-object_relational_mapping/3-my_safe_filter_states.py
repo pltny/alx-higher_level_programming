@@ -4,7 +4,7 @@
 import MySQLdb
 from sys import argv
 
-""" The function"""
+""" The function  code"""
 
 if __name__ == "__main__":
 
@@ -13,7 +13,7 @@ if __name__ == "__main__":
             passwd=argv[2], database=argv[3])
     cursor = db.cursor()
     cursor.execute(
-            "SELECT * FROM states WHERE name  BINARY"
+            "SELECT * FROM states WHERE name like BINARY"
             "'{:s}' ORDER BY id ASC".format(argv[4].replace("'", "''")))
     states = cursor.fetchall()
     for state in states:
