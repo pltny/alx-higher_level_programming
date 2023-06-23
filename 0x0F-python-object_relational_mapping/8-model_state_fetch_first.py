@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-Prints the first State object
-Usage: first.py <mysql username> /
+<mysql username> /
                                       <mysql password> /
                                       <database name>
 """
