@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-changes
+tyut
 """
 
 import sys
@@ -17,5 +17,5 @@ if __name__ == "__main__":
     session = session_maker()
 
     state = session.query(State).filter_by(id=2).first()
-    state.name = "Neiw Mexico"
+    state.name = "New Mexico"
     session.commit()

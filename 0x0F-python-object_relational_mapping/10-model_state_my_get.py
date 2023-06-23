@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-prints the State object with
+pr
 """
 
 import sys

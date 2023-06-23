@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-prints all City objects
+print
 """
 
 import sys

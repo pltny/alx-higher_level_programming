@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-deletes all State objects
+hgf
 """
 
 import sys
