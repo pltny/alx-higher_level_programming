@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-listscities 
+lists ll
 """
 import sys
 import MySQLdb
@@ -10,7 +10,7 @@ if __name__ == "__main__":
     c = db.cursor()
     c.execute("""SELECT * FROM cities
                 INNER JOIN states
-                state_id = states.id
+                ON cities.state_id = states.id
                 ORDER BY cities.id""")
     print(", ".join([city[2]
                      for city in c.fetchall()
