@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """
-Lists all State
-from the database
-Usage: ./9-model_state_filter_a.py <mysql username> /
+<mysql username> /
                                    <mysql password> /
                                    <database name>
 """
