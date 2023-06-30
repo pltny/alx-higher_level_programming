@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-'''module:
-a script
-'''
-import urllib.request
+"""
+python script
+"""
 
-url = 'https://alx-intranet.hbtn.io/status'
 
-with urllib.request.urlopen(url) as res:
-    body = res.read()
+if __name__ == '__main__':
+    import urllib.request
 
-print('Body response:')
-print('\t- type:', type(body))
-print('\t- content:', body)
-print('\t- utf8 content:', body.decode('utf-8'))
+    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as res:
+        content = res.read()
+        print("Body response:")
+        print("\t- type: {}".format(type(content)))
+        print("\t- content: {}".format(content))
+        print("\t- utf8 content: {}".format(content.decode('utf-8')))
